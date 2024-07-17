@@ -12,14 +12,11 @@
         <a class="navbar-brand" href="#">Home</a>
     </nav>
     <section class="container mt-5">
-        <h1>Tablas de Multiplicar</h1>
-        <p>Imprimir tabla de multiplicar de numero ingresado en campo de imput text
-        </p>
-        <form>
-            <div class="form-grup mt-3">
-                <label for="inputText">Ingrese numero para trabajar</label>
-                <input id="inputText"type="text" class="form-control mt-3" placeholder="Ingresar valor numerico">
-                <button class="btn btn-danger mt-3" onclick="traerTablas()">mostrar tablas</button>
+                <input type="text" id="nombre" placeholder="ingresar un nombre">
+                <button onclick="Ingresar(this)">
+                    Ingresar
+                </button>
+                <ul id="listaNombres"></ul>
             </div>
     </form>
     <div id="lista" class="container mt-3"></div>
