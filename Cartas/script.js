@@ -5,7 +5,7 @@ function countCard() {
   const card = cardInput.value.toUpperCase();
   cardInput.value = '';
 
-  const cards = card.split('');
+  const cards = card.split(',');
   for (const c of cards) {
     let countChange;
     switch (c) {
